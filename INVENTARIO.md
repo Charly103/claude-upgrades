@@ -124,3 +124,4 @@ Estas skills se activan **automáticamente** cuando Claude detecta el contexto a
 | 2026-02-22 | Creación de este inventario |
 | 2026-02-22 | Skill `claude-upgrades-maintainer` + workflow `/sync-upgrades` creados |
 | 2026-02-22 | Repo subido a GitHub: `Charly103/claude-upgrades` |
+| 2026-02-22 | Repo clonado en VPS de Maya + skill `claude-upgrades.md` desplegada |
