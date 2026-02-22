@@ -143,7 +143,23 @@ Se activa `superpowers-writing-skills` que te guía en la estructura correcta.
 
 ---
 
-## Cómo Mantener Esto Actualizado
+## Cómo se Mantiene Actualizado (Automático)
+
+Antigravity tiene una skill `claude-upgrades-maintainer` que se encarga automáticamente:
+
+1. **Se activa sola** cuando se instalan/eliminan skills, plugins, o se cambian configs
+2. **Audita** los 3 directorios de skills y compara con el inventario
+3. **Actualiza** `INVENTARIO.md` y `GUIA-USO.md` si hay diferencias
+4. **Push a GitHub** automáticamente tras cada cambio
+
+### Sincronización Manual
+
+Si quieres forzar una sincronización, usa el workflow:
+```
+/sync-upgrades
+```
+
+### Mantenimiento manual (si no estás en Antigravity)
 
 1. **Cuando instales algo nuevo** → Añádelo al INVENTARIO.md
 2. **Cuando crees una skill nueva** → Ponla en `~/.claude/skills/` (para Claude Code) o `~/.agent/skills/` (para Antigravity)
@@ -154,7 +170,8 @@ Se activa `superpowers-writing-skills` que te guía en la estructura correcta.
 
 ## Próximos Pasos Recomendados
 
-1. **Subir esto a GitHub** — Crear repo privado `claude-upgrades` como backup
-2. **Integrar B.L.A.S.T. en el plan de arquitectura** — Que sea el estándar para nuevos proyectos del ecosistema
-3. **Empezar Fase 1 del plan** — Supabase shared brain
-4. **Probar Agent Teams** en un proyecto real pequeño antes de usarlo en producción
+1. ~~**Subir esto a GitHub**~~ ✅ Repo: `Charly103/claude-upgrades`
+2. ~~**Mantenimiento automatizado**~~ ✅ Skill `claude-upgrades-maintainer` + workflow `/sync-upgrades`
+3. **Integrar B.L.A.S.T. en el plan de arquitectura** — Que sea el estándar para nuevos proyectos del ecosistema
+4. **Empezar Fase 1 del plan** — Supabase shared brain
+5. **Probar Agent Teams** en un proyecto real pequeño antes de usarlo en producción

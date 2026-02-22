@@ -46,8 +46,9 @@ Estas skills se activan **automáticamente** cuando Claude detecta el contexto a
 | `orchestrator` | Original | Skill de orquestador Anti-Gravity |
 | `reverse-engineering-videos` | Original | Ingeniería inversa de vídeos + templates Remotion |
 | `writing-plans` | Original | Escritura de planes |
+| `claude-upgrades-maintainer` | Original | Mantenimiento automático del repo claude-upgrades + sync GitHub |
 
-**Total: 25 skills en ~/.agent/ + 2 skills en ~/.claude/**
+**Total: 26 skills en ~/.agent/ + 2 skills en ~/.claude/**
 
 ---
 
@@ -121,3 +122,5 @@ Estas skills se activan **automáticamente** cuando Claude detecta el contexto a
 | 2026-02-22 | Creación de skill B.L.A.S.T. Protocol |
 | 2026-02-22 | Plan de arquitectura del ecosistema completado |
 | 2026-02-22 | Creación de este inventario |
+| 2026-02-22 | Skill `claude-upgrades-maintainer` + workflow `/sync-upgrades` creados |
+| 2026-02-22 | Repo subido a GitHub: `Charly103/claude-upgrades` |
